@@ -1,0 +1,22 @@
+.menu__list {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    border: 1px var(--border-input-color) solid;
+    border-radius: 2px;
+    z-index: 2;
+    cursor: pointer;
+
+    >div {
+        margin: 2px 1px;
+        padding: 5px;
+        border-radius: 2px;
+
+        &:hover {
+            color: var(--color-light-green-500);
+            background-color: var(--border-input-color);
+        }
+    }
+}

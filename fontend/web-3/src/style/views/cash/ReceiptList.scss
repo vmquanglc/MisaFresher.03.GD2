@@ -1,0 +1,268 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        padding-left: 24px;
+
+        p span {
+            font-weight: bold;
+        }
+
+        .cancel-select {
+            &:disabled {
+                color: #e61d1d7c;
+            }
+
+            color: #e61d1d;
+            background-color: white;
+            font-weight: normal;
+            cursor: pointer;
+        }
+
+        .link-button {}
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        padding-right: 24px;
+
+        .input-search {
+            position: relative;
+            top: 6px;
+        }
+
+        .icon-container {
+            position: relative;
+
+            .icon-reload {
+                position: absolute;
+            }
+        }
+    }
+}
+
+.body {
+    .sticky-table {
+        overflow: auto;
+        border: 1px solid var(--border-input-color);
+        margin: 0px 15px 0px 15px;
+        height: calc(100vh - 290px);
+        background-color: white;
+
+        &::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+        }
+
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+            background: #ccc;
+        }
+
+        /* Handle on hover */
+        &::-webkit-scrollbar-thumb:hover {
+            background: #a7a7a7;
+        }
+
+        .table {
+
+            th,
+            td {
+                .table-data {
+                    width: 100%;
+                }
+
+                border-right: 1px solid var(--border-input-color);
+
+                &:nth-child(2) {
+                    text-align: left;
+                }
+
+                &:nth-child(3) {
+                    text-align: left;
+                }
+
+                &:nth-child(4) {
+                    text-align: left;
+                }
+
+                &:nth-child(5) {
+                    text-align: left;
+                }
+
+                &:nth-child(6) {
+                    text-align: right !important;
+                }
+
+                &:nth-child(7) {}
+
+                &:nth-child(8) {
+                    text-align: left;
+                }
+
+                &:nth-child(9) {
+                    text-align: left !important;
+                }
+            }
+
+            thead {
+                tr {
+                    th {
+                        padding: 0px 12px;
+
+                        &:first-child {
+                            z-index: 19;
+                        }
+
+                        &:last-child {
+                            z-index: 19;
+                            right: 0px;
+                        }
+
+                        &:nth-child(1) {
+                            min-width: 45px;
+                        }
+
+                        &:nth-child(2) {
+                            min-width: 160px;
+                            width: 10%;
+                        }
+
+                        &:nth-child(3) {
+                            min-width: 160px;
+                            width: 25%;
+                        }
+
+                        &:nth-child(4) {
+                            min-width: 120px;
+                            width: 30%;
+                        }
+
+                        &:nth-child(5) {
+                            min-width: 204px;
+                            width: 22%;
+                        }
+
+                        &:nth-child(6) {
+                            min-width: 90px;
+                            width: 20%;
+                        }
+
+                        &:nth-child(7) {
+                            min-width: 150px;
+                        }
+
+                        &:nth-child(8) {
+                            min-width: 150px;
+                        }
+
+                        &:nth-child(9) {
+                            min-width: 200px;
+                        }
+                    }
+                }
+            }
+
+            tbody {
+                tr {
+                    td {
+                        &:first-child {
+                            position: sticky;
+                            left: 0px;
+                            padding: 0px 12px;
+                        }
+
+
+                        &:has(.link-button) {
+                            position: sticky;
+                            right: 0px;
+
+                            .flex {
+                                margin-right: 24px;
+                                align-items: center;
+                            }
+
+                            .link-button {
+                                background-color: rgba(255, 255, 255, 0);
+                                margin-right: -24px;
+                            }
+
+                            .icon-container {
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#app>div>div.head-and-content>div.cash__home>div.cash__content {
+
+    .head,
+    .body {
+
+        background-color: white;
+    }
+}
+
+.total__head {
+    height: 60px;
+    background-color: white;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+
+    .block {
+        padding: 0px 6px;
+        width: calc(calc(100% - 96px) / 3);
+        background-color: #ECEEF1;
+        display: flex;
+        height: 24px;
+
+        column-gap: 25px;
+        align-items: center;
+
+        .value {
+            font-weight: bold;
+        }
+
+        &:nth-child(1) {
+            border-left: 4px solid #00A9F2;
+
+            .value {
+                color: #0075C0;
+            }
+        }
+
+        &:nth-child(2) {
+            border-left: 4px solid #FF7F2C;
+
+            .value {
+                color: #0075C0;
+            }
+        }
+
+        &:nth-child(3) {
+            border-left: 4px solid #74CB2F;
+
+            .value {
+                color: #ED1C24;
+            }
+        }
+    }
+}
+
+button[disabled] {
+    cursor: default !important;
+}

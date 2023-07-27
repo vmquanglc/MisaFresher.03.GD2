@@ -1,0 +1,30 @@
+.customer__home {
+    padding: 24px;
+    background-color: var(--border-input-color);
+
+    .customer__home-head {
+        .home__title {
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .home__nav {
+            display: flex;
+            align-items: center;
+            position: relative;
+            margin: 12px 0px;
+            left: -7px;
+
+            a.navigate {
+                color: #0075c0;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .customer__home-body {
+        width: 100%;
+        height: calc(100vh - 182px);
+        background-color: white;
+    }
+}

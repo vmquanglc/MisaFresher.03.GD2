@@ -1,0 +1,72 @@
+@import 'button';
+@import 'combobox';
+@import 'popup';
+@import 'table';
+@import 'textfield';
+@import 'icon';
+@import 'cursor';
+
+.container {
+  display: flex;
+  flex-direction: row;
+
+  .head-and-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+* {
+  font-family: Misa font !important;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.absolute {
+  position: absolute;
+}
+
+@font-face {
+  font-family: "Misa font";
+  src: url(../../assets/font/Roboto/Roboto-Regular.ttf);
+}
+
+:root {
+  --border-radius: 4px;
+
+  --color-light-green-800: #204918;
+  --color-light-green-700: #306F24;
+  --color-light-green-600: #409330;
+  --color-light-green-500: #50b83c;
+  --color-light-green-300: #6bc18d;
+  --color-light-green-200: #9cd5b3;
+  --color-light-green-100: #ceead9;
+  --color-light-green-50: #eef8ec;
+
+  --color-red-600: #b80000;
+  --color-red-500: #e60000;
+  --color-red-400: #eb3333;
+  --color-red-300: #f06666;
+
+  --color-grey-400: #bdbdbd;
+  --color-background-icon-button: rgba(80, 184, 60, 0.1);
+  --color-primary: #007aff;
+  --color-dropdownlist-hover: rgba(80, 184, 60, 0.1);
+
+  --border-color: #ccc;
+  --border-color-hover: #007aff;
+  --border-input-color: #e6e6e6;
+  --input-disabled-color: #f3f3f3;
+
+  --height-primary: 36px;
+}

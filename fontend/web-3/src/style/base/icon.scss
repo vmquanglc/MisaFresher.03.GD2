@@ -1,0 +1,300 @@
+.icon-container {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    .icon-search-small-black {
+        background: url('/Resource/img/Sprites.64af8f61.svg') no-repeat -316px -148px;
+        width: 17px;
+        height: 16px;
+    }
+
+    .icon-search-middle-black {
+        background: url('/Resource/img/Sprites.64af8f61.svg') no-repeat -1041px -89px;
+        width: 22px;
+        height: 22px;
+    }
+
+    .icon-search-big-black {
+        background: url('../../assets/icon/icon-search-big-black.png');
+        width: 32px;
+        height: 32px;
+    }
+
+    .icon-check-green {
+        background: url('../../assets/icon/check-green.svg');
+        width: 24px;
+        height: 24px;
+    }
+
+    .icon-notice-success {
+        background: url('/Resource/img/Sprites.64af8f61.svg') no-repeat -1602px -258px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon-notice-error {
+        background: url('/Resource/img/Sprites.64af8f61.svg') no-repeat -762px -146px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon-notice-warning {
+        background: url('/Resource/img/Sprites.64af8f61.svg') no-repeat -817px -145px;
+        width: 22px;
+        height: 23px;
+    }
+
+    .icon-notice-information {
+        background: url('/Resource/img/Sprites.64af8f61.svg') no-repeat -1658px -146px;
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    .icon-refresh-green {
+        background: url('../../assets/icon/refresh.png');
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon-x-black {
+        background: url('../../assets/icon/x.svg');
+        width: 24px;
+        height: 24px;
+    }
+
+    .icon-x-black--small {
+        background: url("/public/Sprites.89360e6c.svg") no-repeat -84px -316px;
+        width: 8px;
+        height: 8px;
+    }
+
+    .icon-reload {
+        background: url("/Resource/img/Sprites.64af8f61.svg") no-repeat -425px -201px;
+        width: 21px;
+        height: 23px;
+    }
+
+    .icon-excel {
+        background: url("/Resource/img/Sprites.64af8f61.svg") no-repeat -705px -202px;
+        width: 23px;
+        height: 20px;
+    }
+
+
+
+
+    &:hover {
+        .icon-reload {
+            background: url("/Resource/img/Sprites.64af8f61.svg") no-repeat -1098px -90px;
+            width: 20px;
+            height: 21px;
+        }
+
+        .icon-excel {
+            background: url("/Resource/img/Sprites.64af8f61.svg") no-repeat -705px -258px;
+            width: 23px;
+            height: 20px;
+        }
+    }
+
+    .icon-loading-blue {
+        background: url('/Resource/img/Sprites.64af8f61.svg') no-repeat -1546px -254px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon-loading-green {
+        background: url('../../assets/icon/icon-loading-green.png');
+        width: 128px;
+        height: 128px;
+    }
+
+    .icon-loading-dotted {
+        background: url('../../assets/icon/icon-loading-dotted.png') no-repeat;
+        width: 32px;
+        height: 32px;
+    }
+
+    .icon-triangle-down-black {
+        background: url("/Resource/img/Sprites.64af8f61.svg") no-repeat -564px -365px;
+        width: 8px;
+        height: 5px;
+    }
+
+    .icon-arrow-down-black {
+        position: relative;
+        top: -1.25px;
+        left: -1.25px;
+        --border-color: #000;
+        border: solid var(--border-color);
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3.5px;
+        transform: rotate(45deg);
+    }
+
+    .icon-arrow-up-black {
+        position: relative;
+        top: 2.25px;
+        left: -1.25px;
+        --border-color: #000;
+        border: solid var(--border-color);
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3.5px;
+        transform: rotate(-135deg);
+
+    }
+
+
+    .icon-arrow-down-white {
+        position: relative;
+        top: -1.25px;
+        left: -1.25px;
+        --border-color: #fff;
+        border: solid var(--border-color);
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3.5px;
+        transform: rotate(45deg);
+    }
+
+    .icon-arrow-left-gray {
+        background: url('/Resource/img/Sprites.64af8f61.svg') no-repeat -36px -409px;
+        width: 8px;
+        height: 14px;
+    }
+
+    .icon-arrow-left-black {
+        background: url('/Resource/img/Sprites.64af8f61.svg') no-repeat -36px -361px;
+        width: 8px;
+        height: 14px;
+    }
+
+    .icon-arrow-left-blue {
+        background: url('/Resource/img/Sprites.64af8f61.svg') no-repeat -228px -362px;
+        width: 7px;
+        height: 12px;
+    }
+
+    .icon-arrow-right-gray {
+        background: url('/Resource/img/Sprites.64af8f61.svg') no-repeat -84px -409px;
+        width: 8px;
+        height: 14px;
+    }
+
+    .icon-arrow-right-black {
+        // background: url('imgs/Sprites.64af8f61.svg') no-repeat -84px -409px;
+        background: url('/Resource/img/Sprites.64af8f61.svg') no-repeat -84px -361px;
+        width: 8px;
+        height: 14px;
+    }
+
+    .icon-date {
+        background: url('/Resource/img/Sprites.64af8f61.svg') no-repeat -128px -312px;
+        width: 16px;
+        height: 16px;
+
+        &:hover {
+            transform: translate(0px, -1px);
+        }
+    }
+
+    .icon-clock-black {
+        background: url("/public/Sprites.89360e6c.svg") no-repeat -648px -145px;
+        width: 24px;
+        height: 23px;
+    }
+
+    .icon-money-black {
+        background: url("/public/Sprites.89360e6c.svg") no-repeat -202px -146px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon-trash-black {
+        background: url('/Resource/img/Sprites.64af8f61.svg') no-repeat -464px -313px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .icon-attach-file {
+        background: url('/Resource/img/Sprites.64af8f61.svg') no-repeat -539px -203px;
+        width: 18px;
+        height: 19px;
+    }
+
+    .icon-attach-file {
+        background: url('/Resource/img/Sprites.64af8f61.svg') no-repeat -539px -203px;
+        width: 18px;
+        height: 19px;
+    }
+
+    .icon-setting-white {
+        background: url("/public/Sprites.89360e6c.svg") no-repeat -145px -87px;
+        width: 23px;
+        height: 26px;
+    }
+
+    .icon-setting-gray {
+        background: url("/public/Sprites.89360e6c.svg") no-repeat -88px -200px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .icon-setting-black {
+        background: url("/public/Sprites.89360e6c.svg") no-repeat -88px -256px;
+        width: 23px;
+        height: 26px;
+    }
+
+    &:hover {
+        .icon-setting-white {
+            background: url("/public/Sprites.89360e6c.svg") no-repeat -145px -31px;
+            width: 23px;
+            height: 26px;
+        }
+
+        .icon-setting-gray {
+            background: url("/public/Sprites.89360e6c.svg") no-repeat -88px -256px;
+            width: 24px;
+            height: 24px;
+        }
+
+        .icon-setting-black {
+            background: url("/public/Sprites.89360e6c.svg") no-repeat -145px -87px;
+            width: 23px;
+            height: 26px;
+        }
+    }
+
+}
+
+.icon-checkbox-checked {
+    background: url('/Resource/img/Sprites.64af8f61.svg') no-repeat -1602px -258px;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-warning {
+    background: url('/Resource/img/Sprites.64af8f61.svg') no-repeat -598px -463px;
+    width: 36px;
+    height: 37px;
+    margin-right: 20px;
+}
+
+.icon-successful {
+    background: url('/Resource/img/Sprites.64af8f61.svg') no-repeat -990px -462px;
+    width: 36px;
+    height: 36px;
+    margin-right: 20px;
+}

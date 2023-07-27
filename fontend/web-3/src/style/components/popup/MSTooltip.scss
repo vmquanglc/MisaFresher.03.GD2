@@ -1,0 +1,22 @@
+.tooltip {
+    width: max-content;
+    max-width: 300px;
+    word-wrap: break-word;
+    position: fixed;
+    z-index: 99;
+    background-color: #393a3d;
+    padding: 5px;
+    border-radius: var(--border-radius);
+    color: white;
+    font-weight: 400;
+
+    &::before {
+        content: "";
+        display: block;
+        width: 7px;
+        height: 7px;
+        transform: rotate(45deg);
+        background-color: #393a3d;
+        position: absolute;
+    }
+}

@@ -1,0 +1,195 @@
+.form__account-form {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 98;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .form {
+        transition: width 0.5s ease, height 0.5s ease, opacity 0.5s ease, visibility 0.5s ease;
+
+        .resize {
+            cursor: pointer;
+            width: 15px;
+            height: 50px;
+            background-color: white;
+            border: 1px solid var(--border-color);
+            position: absolute;
+            top: calc(50% - 25px);
+            left: -7.5px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        --form-width: 50vw;
+        --form-height: 100vh;
+        width: var(--form-width);
+        height: 100vh;
+        background-color: white;
+        padding: 24px;
+        border-radius: var(--border-radius);
+        position: fixed;
+        right: 0;
+
+        .form__header {
+            display: flex;
+            justify-content: space-between;
+
+            .title {
+                font-weight: bold;
+                font-size: 25px;
+            }
+
+            .input {
+                position: relative;
+                top: -8px;
+            }
+
+        }
+
+        .form__body {
+            max-height: 900px;
+            overflow-x: auto;
+            height: 100%;
+            padding-bottom: 150px;
+            margin: 24px 0px;
+
+            &::-webkit-scrollbar {
+                width: 5px;
+                height: 5px;
+            }
+
+            /* Handle */
+            &::-webkit-scrollbar-thumb {
+                background: #ccc;
+            }
+
+            /* Handle on hover */
+            &::-webkit-scrollbar-thumb:hover {
+                background: #a7a7a7;
+            }
+
+            .flex {
+                gap: 12px;
+
+                .input {
+
+                    &:nth-child(1) {
+                        width: 40%;
+                    }
+
+                    &:nth-child(2) {
+                        width: 40%;
+                    }
+                }
+
+            }
+
+            .input {
+
+                &:nth-child(1) {
+                    width: 20%;
+                }
+
+                &:nth-child(2) {
+                    width: 40%;
+                }
+
+                &:nth-child(3) {
+                    width: 40%;
+                }
+            }
+
+            .collapse {
+                margin: 12px 0px;
+                font-size: 18px;
+                display: flex !important;
+            }
+
+            .sub-menu {
+                display: flex;
+                gap: 12px;
+                margin-bottom: 24px;
+
+                .block {
+                    width: calc(50% - 24px);
+
+                    .row {
+                        display: flex !important;
+                        height: 48px !important;
+                        align-items: center;
+
+                        .input-checkbox {
+                            width: 183px;
+                        }
+
+                        .input {
+                            width: 242px !important;
+                            top: 6px;
+                            position: relative;
+                        }
+                    }
+                }
+            }
+        }
+
+        .form__footer {
+            position: relative;
+
+            .absolute {
+                width: var(--form-width);
+
+                background-color: #f5f5f5;
+                display: flex;
+                justify-content: space-between;
+                top: -101px;
+                left: -24px;
+                padding: 12px 24px;
+                border-bottom-left-radius: var(--border-radius);
+                border-bottom-right-radius: var(--border-radius);
+
+                .left {}
+
+                .right {
+                    display: flex;
+                    gap: 12px;
+                }
+            }
+        }
+    }
+}
+
+.input,
+.input-date {
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    margin-left: 1px;
+}
+
+@media only screen and (max-height: 768px) {
+    .form__footer {
+
+        .absolute {
+            top: -113px !important;
+            left: -24px;
+        }
+    }
+
+    .form__account-form {
+        .form {
+            --form-width: 99.2vw !important;
+        }
+    }
+}

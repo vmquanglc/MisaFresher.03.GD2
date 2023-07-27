@@ -1,0 +1,36 @@
+.popup__loading {
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .icon-container {
+        width: 40px;
+        height: 40px;
+
+        .big-loading {
+            width: 40px;
+            height: 40px;
+        }
+
+        .small-loading {
+            width: 20px;
+            height: 20px;
+        }
+
+        .icon-loading-solid-green {
+            box-sizing: border-box;
+            border-radius: 50%;
+            border-top: 4px solid var(--color-light-green-500);
+            border-right: 4px solid var(--color-light-green-500);
+            border-bottom: 4px solid var(--color-light-green-500);
+            border-left: 4px solid rgba(0, 0, 0, 0);
+        }
+    }
+}

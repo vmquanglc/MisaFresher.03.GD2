@@ -1,0 +1,262 @@
+.input {
+    margin-bottom: 16px;
+    user-select: none;
+
+    .input__label {
+        font-weight: bold;
+    }
+}
+
+.outline-red {
+    outline: 1px solid red !important;
+}
+
+.errormessage {
+    margin-top: 70px;
+}
+
+.input-errored .mcombobox {
+    outline: 1px solid red !important;
+}
+
+.mcombobox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    // width: 300px;
+    border: 1px solid var(--border-input-color);
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    &:has(.mcombobox__input:disabled),
+    &:has(.mcombobox__input:read-only) {
+        background-color: var(--input-disabled-color) !important;
+    }
+
+    .mcombobox__body {
+        display: flex;
+        flex-basis: 100%;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        border: none;
+        border-right: 1px solid var(--border-input-color);
+        align-items: center;
+
+        &:has(.mcombobox__input:disabled),
+        &:has(.mcombobox__input:read-only) {
+            background-color: var(--input-disabled-color) !important;
+        }
+    }
+
+    .selected-item {
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius);
+        display: flex;
+        align-items: center;
+        padding-left: 5px;
+        margin: 1.5px 1.5px;
+        height: 29px;
+        background-color: #F0F0F0;
+    }
+
+    .mcombobox__input {
+        height: 36px;
+        width: 100%;
+        min-width: 140px;
+        padding: 0 12px;
+        box-sizing: border-box;
+        flex: 1;
+        outline: none;
+        border: unset;
+
+        border-radius: 4px 0px 0px 4px;
+
+        &:disabled,
+        &:read-only {
+            background-color: var(--input-disabled-color) !important;
+        }
+    }
+
+    &:has(.mcombobox__input:focus) {
+        outline: 1px solid #50b83c;
+    }
+
+    &:has(.mcombobox__input:disabled),
+    &:has(.mcombobox__input:read-only) {
+        .mcombobox__button {
+            background-color: var(--input-disabled-color);
+        }
+    }
+
+    .mcombobox__button {
+        height: 100%;
+        width: 36px;
+        border: unset;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0px 4px 4px 0px;
+    }
+
+    .mcombobox__data {
+        user-select: none;
+        display: block;
+        background-color: #fff;
+        position: absolute;
+        top: calc(100% + 3px) !important;
+        width: 100%;
+        border: 1px solid var(--border-input-color);
+        box-sizing: border-box;
+        row-gap: 4px;
+        border-radius: var(--border-radius);
+        z-index: 99;
+
+
+        &:not(:has(table)) {
+            max-height: 200px;
+            overflow: auto;
+
+            &::-webkit-scrollbar {
+                width: 4px;
+                height: 0px;
+            }
+
+            /* Handle */
+            &::-webkit-scrollbar-thumb {
+                background: #ccc;
+            }
+
+            /* Handle on hover */
+            &::-webkit-scrollbar-thumb:hover {
+                background: #a7a7a7;
+            }
+        }
+
+        &:has(div.mcombobox-item) {
+
+            user-select: none;
+            display: block;
+            background-color: #fff;
+            position: absolute;
+            top: 100%;
+            width: 100%;
+            border: 1px solid var(--border-input-color);
+            box-sizing: border-box;
+            row-gap: 4px;
+            padding: 8px;
+            overflow-y: auto;
+            // max-height: 200px;
+            border-radius: var(--border-radius);
+            z-index: 99;
+            max-height: 200px;
+
+            .mcombobox-item {
+                height: 36px;
+                border-radius: var(--border-radius);
+                display: flex;
+                align-items: center;
+                padding: 0 8px;
+                justify-content: space-between;
+
+                &:hover {
+
+                    background-color: #50b83c1a;
+                }
+            }
+
+        }
+
+        &:has(table) {
+            user-select: none;
+            display: block;
+            background-color: #fff;
+            position: absolute;
+            top: 100%;
+            width: fit-content;
+            border: 1px solid var(--border-input-color);
+            box-sizing: border-box;
+            row-gap: 4px;
+            padding: 0px;
+            // max-height: 200px;
+            border-radius: var(--border-radius);
+            z-index: 99;
+
+
+            table {
+                width: max-content;
+                position: relative;
+                top: 0;
+                border-collapse: collapse;
+                border-spacing: 0px;
+
+                th,
+                td {
+                    height: 44px;
+                }
+
+                tr {
+                    display: flex;
+                }
+
+                td {
+                    min-width: 40px;
+                    padding: 0px 8px;
+                    align-items: center;
+                    display: flex;
+                }
+
+                tr:has(th) {
+                    display: block;
+                    background-color: var(--border-input-color);
+                    padding-right: 28px;
+                }
+
+                th {
+                    text-align: left;
+                    padding: 8px;
+                    position: sticky;
+                    top: 0px;
+                    background-color: white;
+                    background-color: var(--border-input-color);
+                }
+
+
+                .sticky-table {
+                    width: 100%;
+                    max-height: 200px;
+                    overflow: auto;
+
+                    &::-webkit-scrollbar {
+                        width: 4px;
+                        height: 0px;
+                    }
+
+                    /* Handle */
+                    &::-webkit-scrollbar-thumb {
+                        background: #ccc;
+                    }
+
+                    /* Handle on hover */
+                    &::-webkit-scrollbar-thumb:hover {
+                        background: #a7a7a7;
+                    }
+
+                    tr {
+                        cursor: pointer;
+
+                        &:hover {
+
+                            background-color: #50b83c1a;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .--selected {
+            background-color: #51b83c39;
+        }
+    }
+}
