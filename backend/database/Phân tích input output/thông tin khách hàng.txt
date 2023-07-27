@@ -1,0 +1,65 @@
+customerType
+mã số thuế
+CustomerCode
+FullName
+Địa chỉ 
+điện thoại
+website
+nhóm khách hàng (n)
+nhân viên bán hàng
+
+... Thông tin liên hệ
+xưng hô
+họ và tên
+email
+số điện thoại
+đại diện theo pháp luật
+
+...người nhận hóa đơn điện tử 
+họ và tên
+Email
+số điện thoại
+
+...điều khoản thanh toán
+TermsOfPaymentCode 
+MaxDaysOwed
+MaximumAmountOfDebt
+accountCollectId
+accountPayId
+
+...Danh sách theo customerId
+bankAccountId
+BankAccountNumber
+Name
+Branch
+BankCity
+
+NationId
+name
+
+CityId
+name
+
+District
+name
+
+Commune
+name
+
+IsSameCustomerAddress
+... addresses where OtherLocationId (char 36)
+Address 
+
+
+Note
+
+
+
+đang phân tích form khách hàng
+
+
+
+
+
+
+thiếu createddate, by,..

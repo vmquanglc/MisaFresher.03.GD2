@@ -1,0 +1,283 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        padding-left: 24px;
+        width: 282px;
+
+        .input-search {
+            position: relative;
+            top: 4px;
+            left: -9px;
+        }
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        padding-right: 24px;
+
+        button.link-button {
+            color: #0075c0;
+            background-color: white;
+            margin-right: -18px;
+        }
+
+
+
+        .icon-container {
+            position: relative;
+
+            .icon-reload {
+                position: absolute;
+            }
+        }
+    }
+}
+
+.--active-row {
+    td {
+        background-color: #E3F9DE;
+    }
+}
+
+.body {
+    .sticky-table {
+        &::-webkit-scrollbar {
+            width: 5px;
+            height: 5px;
+        }
+
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+            background: #ccc;
+        }
+
+        /* Handle on hover */
+        &::-webkit-scrollbar-thumb:hover {
+            background: #a7a7a7;
+        }
+
+        overflow: auto;
+        border: 1px solid var(--border-input-color);
+        margin: 0px 15px 0px 15px;
+        height: calc(100vh - 289px);
+
+        .table {
+            .table-data {
+                display: flex;
+                align-items: center;
+            }
+
+            td,
+            th {
+                border-right: 1px solid var(--border-input-color);
+
+                &:last-child {
+                    min-width: 130px !important;
+                    max-width: 130px !important;
+                }
+            }
+
+            thead {
+                tr {
+                    th {
+                        padding: 0px 12px;
+
+                        &:first-child {
+                            z-index: 19;
+                        }
+
+                        &:last-child {
+                            z-index: 19;
+                            right: 0px;
+                        }
+
+                        &:nth-child(1) {
+                            text-align: left;
+                            min-width: 133px;
+                        }
+
+                        &:nth-child(2) {
+                            min-width: 160px;
+                            width: 10%;
+                            text-align: left;
+                        }
+
+                        &:nth-child(3) {
+                            min-width: 160px;
+                            width: 25%;
+                            text-align: left;
+                        }
+
+                        &:nth-child(4) {
+                            min-width: 160px;
+                            width: 30%;
+                            text-align: left;
+                        }
+
+                        &:nth-child(5) {
+                            min-width: 310px;
+                            width: 22%;
+                            text-align: left;
+                        }
+
+                        &:nth-child(6) {
+                            min-width: 120px;
+                            width: 20%;
+                            text-align: center;
+                        }
+
+                        &:nth-child(7) {
+                            min-width: 150px;
+
+                        }
+                    }
+                }
+            }
+
+            tbody {
+                @for $i from 1 through 6 {
+                    .rank-#{$i} {
+                        td {
+                            &:nth-child(1) {
+                                padding-left: #{$i * 32}px !important;
+                            }
+                        }
+                    }
+                }
+
+                .--parent {
+                    font-weight: bold !important;
+
+                    td:nth-child(1) {
+
+                        .collapse-icon {
+                            position: absolute;
+                            cursor: pointer;
+
+                            &::before {
+                                content: '';
+                                width: 20px;
+                                height: 20px;
+                                display: block;
+                                position: absolute;
+                                top: 14px;
+                                left: -26px;
+                                border: 2px solid var(--border-color);
+                                border-radius: var(--border-radius);
+                                box-sizing: border-box;
+                            }
+
+                            .collapse-icon--minus {
+                                width: 20px;
+                                height: 20px;
+                                position: absolute;
+                                top: 14px;
+                                left: -26px;
+
+                                &::before {
+                                    content: '';
+                                    width: 12px;
+                                    height: 2px;
+                                    display: block;
+                                    background-color: var(--border-color);
+                                    position: absolute;
+                                    top: 9px;
+                                    left: 4px;
+                                }
+                            }
+
+                            .collapse-icon--plus {
+                                width: 20px;
+                                height: 20px;
+                                position: absolute;
+                                top: 14px;
+                                left: -26px;
+
+                                &::before {
+                                    content: '';
+                                    width: 12px;
+                                    height: 2px;
+                                    display: block;
+                                    background-color: var(--border-color);
+                                    position: absolute;
+                                    top: 9px;
+                                    left: 4px;
+                                }
+
+                                &::after {
+                                    content: '';
+                                    width: 2px;
+                                    height: 12px;
+                                    display: block;
+                                    background-color: var(--border-color);
+                                    position: absolute;
+                                    top: 4px;
+                                    left: 9px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                tr {
+                    td {
+                        &:first-child {
+                            position: sticky;
+                            left: 0px;
+                            padding: 0px 12px;
+                            padding-left: 48px;
+                        }
+
+
+                        &:has(.link-button) {
+                            position: sticky;
+                            right: 0px;
+
+                            .flex {
+                                margin-left: 20%;
+                                margin-right: 20%;
+                                align-items: center;
+                            }
+
+                            .link-button {
+                                background-color: rgba(255, 255, 255, 0);
+                                margin-right: -24px;
+                            }
+
+                            .icon-container {
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .table__footer {
+            .table__footer--left {
+                .table__numrows {}
+            }
+
+            .table__footer--right {
+                .table__choose-rowcount {
+                    cursor: default !important;
+
+                    .table__maxrow {}
+                }
+
+                .table__recordnumber {
+                    cursor: default !important;
+                }
+
+            }
+        }
+    }
+
+}

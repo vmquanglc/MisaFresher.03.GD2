@@ -1,0 +1,33 @@
+.notice-container {
+    position: fixed;
+    top: 0;
+    color: #1f1f1f;
+    z-index: 99;
+
+    .notice {
+        position: relative;
+        transform: translateX(-50%);
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        min-width: 450px;
+        min-height: 56px;
+        padding: 16px;
+        margin-top: 10px;
+        border-radius: var(--border-radius);
+        box-shadow: 2px 2px 10px var(--border-color);
+
+        .notice__left {
+            display: flex;
+            align-items: center;
+
+            .notice__type {
+                font-weight: bold;
+                margin-left: 8px;
+                margin-right: 4px;
+            }
+        }
+    }
+}

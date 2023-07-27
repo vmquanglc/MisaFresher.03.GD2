@@ -1,0 +1,33 @@
+.cash__home {
+    padding: 10px 24px;
+    background-color: var(--border-input-color);
+    height: calc(100vh - 56px);
+
+    .cash__nav {
+        width: 100%;
+        height: 34px;
+        border-bottom: 1px solid var(--border-color);
+        display: flex;
+
+        .button--active {
+            font-weight: 500 !important;
+            background-color: #F2EBBF;
+            border-bottom: 3px solid green;
+            border-radius: var(--border-radius) var(--border-radius) 0 0;
+        }
+
+        .nav-button {
+            font-weight: 400;
+            color: black;
+            cursor: pointer;
+            padding: 10px 24px;
+            display: flex;
+            align-items: center;
+
+            &:hover {
+                color: var(--color-light-green-600);
+            }
+        }
+
+    }
+}

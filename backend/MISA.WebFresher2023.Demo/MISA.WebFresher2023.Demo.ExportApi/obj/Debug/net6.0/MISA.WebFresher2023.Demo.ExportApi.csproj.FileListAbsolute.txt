@@ -1,0 +1,86 @@
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\appsettings.Development.json
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\appsettings.json
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.exe
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.deps.json
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.runtimeconfig.json
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.pdb
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.csproj.AssemblyReference.cache
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.AssemblyInfoInputs.cache
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.AssemblyInfo.cs
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.csproj.CoreCompileInputs.cache
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\staticwebassets\msbuild.MISA.WebFresher2023.Demo.ExportApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\staticwebassets\msbuild.build.MISA.WebFresher2023.Demo.ExportApi.props
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MISA.WebFresher2023.Demo.ExportApi.props
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MISA.WebFresher2023.Demo.ExportApi.props
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\staticwebassets.build.json
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\staticwebassets.development.json
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\scopedcss\bundle\MISA.WebFresher2023.Demo.ExportApi.styles.css
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.csproj.CopyComplete
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\refint\MISA.WebFresher2023.Demo.ExportApi.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.pdb
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.genruntimeconfig.cache
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\ref\MISA.WebFresher2023.Demo.ExportApi.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\appsettings.Development.json
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\appsettings.json
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.exe
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.deps.json
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.runtimeconfig.json
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.pdb
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.csproj.AssemblyReference.cache
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.AssemblyInfoInputs.cache
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.AssemblyInfo.cs
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.csproj.CoreCompileInputs.cache
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\staticwebassets\msbuild.MISA.WebFresher2023.Demo.ExportApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\staticwebassets\msbuild.build.MISA.WebFresher2023.Demo.ExportApi.props
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MISA.WebFresher2023.Demo.ExportApi.props
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MISA.WebFresher2023.Demo.ExportApi.props
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\staticwebassets.build.json
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\staticwebassets.development.json
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\scopedcss\bundle\MISA.WebFresher2023.Demo.ExportApi.styles.css
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.csproj.CopyComplete
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\refint\MISA.WebFresher2023.Demo.ExportApi.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.pdb
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\MISA.WebFresher2023.Demo.ExportApi.genruntimeconfig.cache
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\obj\Debug\net6.0\ref\MISA.WebFresher2023.Demo.ExportApi.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\AutoMapper.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\ClosedXML.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\Dapper.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\ExcelNumberFormat.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\Irony.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\MySqlConnector.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\SixLabors.Fonts.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\System.IO.Packaging.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\XLParser.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\MISA.WebFresher2023.Demo.BL.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\MISA.WebFresher2023.Demo.Common.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\MISA.WebFresher2023.Demo.DL.dll
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\MISA.WebFresher2023.Demo.BL.pdb
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\MISA.WebFresher2023.Demo.Common.pdb
+D:\Misa\ThucTap\GD2\backend\MISA.WebFresher2023.Demo - Copy\MISA.WebFresher2023.Demo.ExportApi\bin\Debug\net6.0\MISA.WebFresher2023.Demo.DL.pdb

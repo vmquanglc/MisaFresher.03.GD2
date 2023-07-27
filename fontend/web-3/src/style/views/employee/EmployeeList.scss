@@ -1,0 +1,47 @@
+.table__checkbox {
+    width: 16px;
+    height: 16px;
+    accent-color: green;
+}
+
+.icon-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 99%;
+    height: 50%;
+    font-weight: 400;
+    color: #111;
+    gap: 20px;
+
+    img {
+        width: 130px;
+    }
+}
+
+.mass-action {
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+
+    .contain-selection {
+        display: flex;
+        gap: 16px;
+        line-height: 18px;
+
+        .cancel-selected {
+            cursor: pointer;
+            color: #e61d1d;
+
+            &:active {
+                font-weight: bolder;
+            }
+        }
+    }
+}

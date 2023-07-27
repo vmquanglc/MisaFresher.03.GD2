@@ -1,0 +1,300 @@
+.popup__employee-form {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 98;
+
+    .popup {
+        --popup-width: 862px;
+        --popup-height: 690px;
+
+        .popup__body {
+            display: grid;
+            grid-template-columns: calc(50% - 12px) calc(50% - 12px);
+            gap: 24px;
+            background-color: white;
+
+            .popup__sub-body {
+                &:nth-child(1) {
+
+                    .input {
+                        &:nth-child(1) {
+                            float: left;
+                            --input-width: calc(var(--popup-width) - 720px);
+                            margin-right: 12px;
+                        }
+
+                        &:nth-child(2) {
+                            float: left;
+
+                            --input-width: calc(var(--popup-width) - 638px);
+                        }
+
+                        &:nth-child(3) {
+                            clear: both;
+
+                            .mcombobox {
+                                margin: 8px 0px 8px 0px;
+                                width: calc(var(--popup-width) - 483px);
+                            }
+                        }
+
+                        &:nth-child(4) .mcombobox {
+                            margin: 8px 0px 8px 0px;
+                            width: calc(var(--popup-width) - 483px);
+                        }
+                    }
+                }
+
+                &:nth-child(2) {
+
+                    .input,
+                    .input-date {
+                        &:nth-child(1) {
+                            float: left;
+                            --input-width: calc(var(--popup-width) - 720px);
+                            margin-right: 12px;
+                        }
+
+                        &:nth-child(2) {
+                            float: left;
+                            --input-width: calc(var(--popup-width) - 640px);
+
+                            margin-bottom: -12px !important;
+
+                            label:has(input[type=radio]) {
+                                top: -8px;
+                            }
+                        }
+
+                        &:nth-child(3) {
+                            margin-right: 12px;
+                            float: left;
+                            --input-width: calc(var(--popup-width) - 652px);
+                            display: flex;
+                            flex-direction: column;
+                            gap: 6px;
+                            margin-bottom: 21px;
+                        }
+
+                        &:nth-child(4) {
+                            float: left;
+                            --input-width: calc(var(--popup-width) - 690px);
+                            display: flex;
+                            flex-direction: column;
+                            gap: 6px;
+                            margin-bottom: 16px;
+                        }
+
+                        &:nth-child(5) {
+                            clear: both;
+                            --input-width: 100%;
+                            display: flex;
+                            margin-bottom: 16px;
+                            flex-direction: column;
+                            gap: 6px;
+                        }
+                    }
+                }
+
+                &:nth-child(3) {
+                    grid-column-end: span 2;
+
+                    .input {
+                        &:nth-child(1) {
+                            --input-width: 100%;
+                        }
+
+                        &:nth-child(2) {
+                            margin-right: 12px;
+                            float: left;
+                            --input-width: calc(var(--popup-width) - 654px);
+                        }
+
+                        &:nth-child(3) {
+                            margin-right: 12px;
+                            float: left;
+                            --input-width: calc(var(--popup-width) - 654px);
+                        }
+
+                        &:nth-child(4) {
+                            margin-right: 12px;
+                            float: left;
+                            --input-width: calc(var(--popup-width) - 654px);
+                        }
+
+                        &:nth-child(5) {
+                            margin-right: 12px;
+                            float: left;
+                            --input-width: calc(var(--popup-width) - 654px);
+                        }
+
+                        &:nth-child(6) {
+                            margin-right: 12px;
+                            float: left;
+                            --input-width: calc(var(--popup-width) - 654px);
+                        }
+
+                        &:nth-child(7) {
+                            margin-right: 12px;
+                            float: left;
+                            --input-width: calc(var(--popup-width) - 654px);
+                        }
+
+                    }
+                }
+            }
+        }
+
+
+        .popup__footer {
+
+            .extra-button {
+                left: calc(var(--popup-width) - 214px);
+            }
+
+            .main-button {
+                left: calc(var(--popup-width) - 124px);
+                width: 100px;
+                padding: 0px;
+
+            }
+        }
+    }
+}
+
+@media only screen and (max-height: 720px),
+screen and (max-width: 870px) {
+    .popup__employee-form .popup {
+        --popup-width: 100vw;
+        --popup-height: 100vh;
+    }
+
+    .popup__employee-form .popup .popup__body {
+        display: block;
+
+        .popup__sub-body {
+            &:nth-child(1) {
+                .mcombobox {
+                    width: calc(100vw - 72px) !important;
+                }
+
+                .input {
+                    &:nth-child(1) {
+                        clear: both;
+                        --input-width: 100%;
+                        margin-right: 12px;
+                    }
+
+                    &:nth-child(2) {
+                        clear: both;
+                        --input-width: 100%;
+                    }
+
+                    &:nth-child(3) {
+                        clear: both;
+
+                        .mcombobox {
+                            margin: 8px 0px 8px 0px;
+                            width: 100%;
+                        }
+                    }
+
+                    &:nth-child(4) .mcombobox {
+                        margin: 8px 0px 8px 0px;
+                        width: 100%;
+                    }
+                }
+            }
+
+            &:nth-child(2) {
+                .input-date .input__text {
+                    --input-width: calc(100vw - 66px);
+                }
+
+                .input,
+                .input-date {
+                    &:nth-child(1) {
+                        clear: both;
+                        --input-width: 100%;
+                        margin-right: 12px;
+                    }
+
+                    &:nth-child(2) {
+                        clear: both;
+                        --input-width: 100%;
+                    }
+
+                    &:nth-child(3) {
+                        margin-right: 12px;
+                        clear: both;
+                        --input-width: 100%;
+                    }
+
+                    &:nth-child(4) {
+                        clear: both;
+                        --input-width: 100%;
+                    }
+
+                    &:nth-child(5) {
+                        clear: both;
+                        --input-width: 100%;
+                    }
+                }
+            }
+
+            &:nth-child(3) {
+                .input {
+                    &:nth-child(1) {
+                        --input-width: 100%;
+                    }
+
+                    &:nth-child(2) {
+                        margin-right: 12px;
+                        clear: both;
+                        --input-width: 100%;
+                    }
+
+                    &:nth-child(3) {
+                        margin-right: 12px;
+                        clear: both;
+                        --input-width: 100%;
+                    }
+
+                    &:nth-child(4) {
+                        margin-right: 12px;
+                        clear: both;
+                        --input-width: 100%;
+                    }
+
+                    &:nth-child(5) {
+                        margin-right: 12px;
+                        clear: both;
+                        --input-width: 100%;
+                    }
+
+                    &:nth-child(6) {
+                        margin-right: 12px;
+                        clear: both;
+                        --input-width: 100%;
+                    }
+
+                    &:nth-child(7) {
+                        margin-right: 12px;
+                        clear: both;
+                        --input-width: 100%;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+.input,
+.input-date {
+    margin-bottom: 12px;
+}
