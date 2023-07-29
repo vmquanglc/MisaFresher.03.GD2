@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    height: calc(100vh - 56px);
+    background-color: #8a8a8a8a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    padding: 150px;
+    font-size: 32px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+  }
+  .text {
+    font-size: 24px;
+  }
